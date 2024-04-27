@@ -1,0 +1,44 @@
+.loginContainer{
+    position: fixed; /* Cambia la posición a fija */
+    top: 0; /* Alinea en la parte superior */
+    left: 0; /* Alinea en la parte izquierda */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100%; /* Ocupa todo el alto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para ver si el contenedor se está centrando */
+
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(101, 67, 33, 0.87);
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    color: rgb(237, 216, 80); /* Texto blanco */
+
+}
+.input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 238px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: rgb(237, 216, 80); /* Texto blanco */
+    background-color: rgb(101, 67, 33);
+
+}
